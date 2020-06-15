@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Solitare</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Solitare</title>
+		
+		<script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery-ui-touch-punch@0.2.3/jquery.ui.touch-punch.min.js"></script>
+	
+    	
+	</head>
+	<body>
+		
+		<div id="playArea">
+			
+			
+		
+		
+			<div id="deckSlot" class="cardArea">
+				<div id="contdck" class="deckHold">
+
+				</div>
+			</div>
+			<div id="hand" class="hand, cardArea">
+				<div id="handbox">
+					<div id="handpreview"></div>
+					<div id="hand3" class="hand3">
+				<!--	<div class="toplft , dr3"></div>
+					<div class="mid , dr3"></div>
+					<div class="btmrt , dr3"></div>-->
+				</div>
+				<div id="hand2" class="hand2">
+				<!--	<div class="toplft , dr2"></div>
+					<div class="mid , dr2"></div>
+					<div class="btmrt , dr2"></div>-->
+				</div>
+				<div id="hand1" class=" hand1">
+				<!--	<div class=" toplft , dr1 "></div>
+					<div class="mid , dr1"></div>
+					<div class="btmrt , dr1"></div>**//-->
+				</div>
+				</div>
+			</div>
+			
+			<div id="complete" class="complete">
+			<div id="cbox">
+				<div id="suitA" class="suitA, cardArea"></div>
+
+				<div id="suitB" class="suitB, cardArea"></div>
+			
+				<div id="suitC" class="suitC, cardArea"></div>
+
+				<div id="suitD" class="suitD, cardArea"></div>
+			</div>
+			</div>
+			
+	  
+			<div id="inPlay">
+			
+				<div id="first" class="first , cardArea , play"></div>
+			
+				<div id="second" class="second , cardArea , play"></div>
+			
+				<div id="third" class="third , cardArea , play"></div>
+			
+				<div id="fourth" class="fourth , cardArea , play"></div>
+			
+				<div id="fifth" class="fifth , cardArea , play"></div>
+			
+				<div id="sixth" class="sixth , cardArea , play"></div>
+			
+				<div id="seventh" class="seventh , cardArea , play"></div>
+			
+			</div>
+		
+			<div id="popSett">
+			<button id="close" class="close">X</button>
+			
+			
+			<br>
+			<h2>Menu</h2><br>
+			<div class="new , butt">New Game</div>
+			<!--<br>-->
+			<br>
+			<br>
+			<div id="win1" class="riight, wincount">Games won:</div>
+			<div class="setting , rainbow">Background Colour:</div>
+			<div class="colourBox">
+				<div class="redz , colour"></div>
+				<div class="blue , colour"></div>
+				<div class="green , colour"></div>
+				<div class="yellow , colour"></div>
+				<div class="purple , colour"></div>
+				<div class="orange , colour"></div>
+				<div class="pink , colour"></div>
+				<div class="goldenrod , colour"></div>
+				<div class="indigo , colour"></div>
+				<div class="darkgray , colour"></div>
+			</div>
+			<br>
+			<div id="drawselectbox">
+				<div id="draw3" class="butt , press">Draw 3 cards</div>
+				<div id="draw1" class="butt">Draw 1 card</div>
+			</div>
+			
+			</div>
+			
+			
+	
+			<div id="dots" class="noselect , butt">•••Menu•••</div>
+			
+			<div id="winner" class="winner">
+				<h1>You win!</h1>
+				<div class="new , butt">New Game?</div><br><br>
+		<div class="wincount"></div>
+			</div>
+	
+		</div>
+		
+		
+		
+		
+		
+	</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
